@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="bg-light text-center text-black">
       <div className="container p-4 pb-0">
-        <section className="mb-4">
+        <section className="mb-4 footer-link">
           <a
             className="btn btn-primary btn-floating m-1 a-facebook"
             href="https://www.facebook.com/synergisticagility"
