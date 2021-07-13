@@ -1,6 +1,6 @@
 import "../styles/Header.css";
 
-function Header(props) {
+function Header() {
   return (
     <header className=" navbar-light bg-header">
       <div className="row">
@@ -13,6 +13,7 @@ function Header(props) {
           </div>
         </div>
       </div>
+      <div></div>
     </header>
   );
 }

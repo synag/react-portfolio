@@ -22,6 +22,11 @@ header{
       
 }
 
+body{
+    background-image:url('../images/maxunsplash.jpg')
+
+}
+
 
 body {
     font-family: "Noto Sans", sans-serif;
