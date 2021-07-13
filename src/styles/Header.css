@@ -1,3 +1,23 @@
 .bg-header{
     background-color: #abb4bb
 }
+.nav-link{
+    margin-left: 2em;
+}
+header a{
+   
+    text-decoration: underline;
+    color: rgb(4, 20, 4);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header{
+    
+        border: 1px solid;
+        padding: 2em;
+        box-shadow: 5px 10px;
+        margin: .5em;
+      
+      
+}
