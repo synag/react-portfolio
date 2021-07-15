@@ -1,19 +1,31 @@
-// import './app.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
-// import Header from './components/Navigation';
-// import Header from './components/Footer';
-// import Header from './components/Project';
-
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Header from "./components/Header";
+import Main from "./components/AboutMe";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Project from "./components/Project";
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Main/>
-      <Footer/>
-     </div>
+      <Router>
+      <Header />
+        
+          <Route exact path="/">
+           <Main/>
+          </Route>
+          <Route exact path="/contact">
+           <Contact/>
+          </Route>
+          <Route exact path="/project">
+         <Project/>
+          </Route>
+      
+        <Footer />
+      </Router>
+
+    </div>
   );
 }
 

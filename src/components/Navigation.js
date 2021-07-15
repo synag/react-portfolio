@@ -1,21 +1,25 @@
 import "../styles/Navigation.css";
+import Main from './AboutMe';
+import React from 'react';
+
 
 
 function Navigation() {
-    return (
-      
-        <div className="row">
-          <div className="navbar-brand col"></div>
-          <div className="col">
-            <div className="row">
-              <div className="col">About Me</div>
-              <div className="col">Projects</div>
-              <div className="col">Contact</div>
-            </div>
-          </div>
+  return (
+    <nav>
+      <div className="row">
+        <div className="col">
+          <a type="button"
+        href="/" >About Me</a>
         </div>
-      
-    );
-  }
-  
-  export default Navigation;
+        <div className="col">
+          <a type="button" href ="/project" >Projects</a>
+        </div>
+        <div className="col">
+          <a type="button" href ="/contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  );
+}
+export default Navigation;
