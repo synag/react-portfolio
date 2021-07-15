@@ -1,0 +1,20 @@
+.card {
+  background-color: aqua;
+  padding: 4em;
+  margin: 1em;
+  padding-bottom: 10em;
+  box-shadow: 5px 10px;
+}
+.cd-left {
+  margin-left: 2em;
+}
+.cd-right {
+  margin-right: 2em;
+}
+
+.cd-one {
+  background-image: url("../images/caroline-attwood-QLjeFvxpdxc-unsplash.jpg");
+  background-size: 531px;
+  filter: grayscale(72%);
+  height: 209px;
+}

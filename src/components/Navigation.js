@@ -10,7 +10,7 @@ function Navigation() {
       <div className="row">
         <div className="col">
           <a type="button"
-        href="/" >About Me</a>
+        href="/react-portfolio" >About Me</a>
         </div>
         <div className="col">
           <a type="button" href ="/project" >Projects</a>

@@ -32,7 +32,7 @@ function Footer() {
       </div>
 
       <div className="text-center p-3 copyRight">
-        © 2020 Copyright: Carl Benbow
+        © 2021 Copyright: Carl Benbow
       </div>
     </footer>
   );
