@@ -2,16 +2,66 @@
   background-image: url("../images/caroline-attwood-QLjeFvxpdxc-unsplash.jpg");
   position: relative;
 }
+.cd-two {
+  background-image: url("../images/jazmin-quaynor-18mUXUS8ksI-unsplash.jpg");
+  position: relative;}
+.cd-three {
+  background-image: url("../images//glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+  position: relative;
+}
+.cd-four {
+  background-image: url("../images/luke-chesser-rCOWMC8qf8A-unsplash.jpg");
+  position: relative;
+}
+.cd-five {
+  background-image: url("../images/maxim-hopman-fiXLQXAhCfk-unsplash.jpg");
+  position: relative;
+}
+.cd-six {
+  background-image: url("../images/tengyart-NDejLr1wr-4-unsplash.jpg");
+  position: relative;
+}
 .cd-one:hover,
-.cd-one:hover .cd-one-text-title-1,
-.cd-one:hover .cd-one-text,
-.cd-one:hover .cd-one-text-title-2,
-.cd-one:hover .cd-one-i {
+.cd-two:hover,
+.cd-three:hover,
+.cd-four:hover,
+.cd-five:hover,
+.cd-six:hover,
+.cd-one:hover .cd-text-title-1,
+.cd-two:hover .cd-text-title-1,
+.cd-three:hover .cd-text-title-1,
+.cd-four:hover .cd-text-title-1,
+.cd-five:hover .cd-text-title-1,
+.cd-six:hover .cd-text-title-1,
+.cd-one:hover .cd-text,
+.cd-two:hover .cd-text,
+.cd-three:hover .cd-text,
+.cd-four:hover .cd-text,
+.cd-five:hover .cd-text,
+.cd-six:hover .cd-text,
+.cd-one:hover .cd-text-title-2,
+.cd-two:hover .cd-text-title-2,
+.cd-three:hover .cd-text-title-2,
+.cd-four:hover .cd-text-title-2,
+.cd-five:hover .cd-text-title-2,
+.cd-six:hover .cd-text-title-2,
+.cd-one:hover .cd-i,
+.cd-two:hover .cd-i,
+.cd-three:hover .cd-i, 
+.cd-four:hover .cd-i, 
+.cd-five:hover .cd-i, 
+.cd-six:hover .cd-i,
+.cd-one:hover .cd-text-technologies,
+.cd-two:hover .cd-text-technologies,
+.cd-three:hover .cd-text-technologies, 
+.cd-four:hover .cd-text-technologies, 
+.cd-five:hover .cd-text-technologies, 
+.cd-six:hover .cd-text-technologies
+ {
   background-image: linear-gradient(#001f3f, #001f3f, #001f3f);
   opacity: 3;
 }
-
-.cd-one-text {
+.cd-text {
   color: white;
   font-size: 15px;
   position: absolute;
@@ -21,10 +71,9 @@
   left: 12%;
   opacity: 0;
  
-
   
 }
-.cd-one-text-title-1 {
+.cd-text-title-1 {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -38,7 +87,7 @@
   
   
 }
-.cd-one-text-title-2 {
+.cd-text-title-2 {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -52,7 +101,7 @@
 }
 
 
-.cd-one-i {
+.cd-i {
   position: absolute;
   top: 38%;
   bottom: 50%;
@@ -63,10 +112,15 @@
   color: white;
 }
 
-.cd-two {
-  background-image: url("../images/jazmin-quaynor-18mUXUS8ksI-unsplash.jpg");
-
-  filter: grayscale(100%);
+.cd-text-technologies{
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 53%;
+  bottom: 50%;
+  right: 40%;
+  left: 12%;
+  opacity: 0;
 }
 
 #cardBdOne,
