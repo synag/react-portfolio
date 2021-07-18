@@ -14,7 +14,14 @@ function emailValidationHandler(event){
  
 }
 function nameValidationHandler(event){
-  let name = event.target
+  let name = event.target.value
+ 
+  if (name){
+    console.log('validated')
+  }
+  else{
+    console.log('Please enter name')
+  }
  
  
 }
@@ -39,6 +46,7 @@ function messageValidationHandler(event){
           className="form-control"
           id="formGroupExampleInput"
           placeholder="Name"
+          onBlur={nameValidationHandler}
         ></input>
       </div>
       <div className="mb-3">
