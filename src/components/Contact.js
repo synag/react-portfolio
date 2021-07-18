@@ -1,4 +1,32 @@
 function Contact() {
+
+function emailValidationHandler(event){
+  let email = event.target.value
+  const validEmailRegex = 
+  RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
+
+  if (validEmailRegex.test(email) ){
+    console.log('email validated')
+  }
+  else{
+    console.log('email incorect')
+  }
+ 
+}
+function nameValidationHandler(event){
+  let name = event.target
+ 
+ 
+}
+
+function messageValidationHandler(event){
+  let message = ""
+ 
+}
+
+
+
+
   return (
     <main className="container">
       <h1>Contact Me</h1>
@@ -18,7 +46,8 @@ function Contact() {
           Email
         </label>
         <input
-          type="text"
+          type="email"
+          onBlur={emailValidationHandler}
           className="form-control"
           id="formGroupExampleInput2"
           placeholder="Email"
