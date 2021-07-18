@@ -27,8 +27,14 @@ function nameValidationHandler(event){
 }
 
 function messageValidationHandler(event){
-  let message = ""
+  let message =event.target.value
  
+  if (message){
+    console.log('validated')
+  }
+  else{
+    console.log('Please enter message')
+  }
 }
 
 
@@ -66,6 +72,7 @@ function messageValidationHandler(event){
           Message
         </label>
         <textarea
+           onBlur={messageValidationHandler}
           type="text"
           className="form-control"
           id="formGroupExampleInput2"
