@@ -1,25 +1,23 @@
 
 import "../styles/Resume.css";
-import "../images/carl_k_benbow_resume_032321.pdf";
+
 
 function Resume() {
   return (
     <main className="resumePage">
       <div className="resumeDiv">
-        <h2 className="resumeName">Resume</h2>
+        <h2 className="resumename">Resume</h2>
 
         <h4>Download</h4>
 
         <p>
-          
           Download Resume
           <span>
-            <a href="../images/carl_k_benbow_resume_032321.pdf" download>
+            <a href="../images/carlkbenbowresume032321.pdf" download>
               here
             </a>
           </span>
         </p>
-
         <h3>Front-End Profencies</h3>
         <ul>
           <li>HTML</li>

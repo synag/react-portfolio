@@ -27,6 +27,7 @@ function App() {
           <Route exact path="/resume">
          <Resume/>
           </Route>
+          
       
         <Footer />
       </Router>
