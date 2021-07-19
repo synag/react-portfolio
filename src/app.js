@@ -5,13 +5,16 @@ import AboutMe from "./components/AboutMe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
+import Resume from "./components/Resume";
 
 function App() {
   return (
     <div>
       <Router>
       <Header />
-        
+           <Route exact path="/">
+           <AboutMe/>
+          </Route>
           <Route exact path="/react-portfolio">
            <AboutMe/>
           </Route>
@@ -20,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/project">
          <Project/>
+          </Route>
+          <Route exact path="/resume">
+         <Resume/>
           </Route>
       
         <Footer />

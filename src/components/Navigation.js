@@ -18,6 +18,9 @@ function Navigation() {
         <div className="col">
           <a type="button" href ="/contact">Contact</a>
         </div>
+        <div className="col">
+          <a type="button" href ="/resume">Resume</a>
+        </div>
       </div>
     </nav>
   );
