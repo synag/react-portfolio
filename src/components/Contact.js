@@ -1,9 +1,8 @@
+import "../styles/Contact.css";
 function Contact() {
-  // function removeMessage(){
-  //   $(`.messagePlacement`).remove()
+ 
 
-  // }
-//need another validation
+
   function emailValidationHandler(event) {
     let email = event.target.value;
     let messagePrint = document.querySelector(".message");
@@ -13,23 +12,26 @@ function Contact() {
 
     if (validEmailRegex.test(email)) {
       console.log("email validated");
-    } else if (messagePrint!=null) {
-    
+    } else if (messagePrint != null) {
       return;
-      
-    } else if(email=="null"){
-      $(".messagePlacement").append(`<p class="message">Please enter valid email</p>`);
-      setTimeout(function(){$(`.message`).remove()},2000)
-    }
-    else {
-     
-      $(".messagePlacement").append(`<p class="message">Please enter valid email</p>`);
-      setTimeout(function(){$(`.message`).remove()},2000)
+    } else if (email == "null") {
+      $(".messagePlacement").append(
+        `<p class="message">Please enter valid email</p>`
+      );
+      setTimeout(function () {
+        $(`.message`).remove();
+      }, 2000);
+    } else {
+      $(".messagePlacement").append(
+        `<p class="message">Please enter valid email</p>`
+      );
+      setTimeout(function () {
+        $(`.message`).remove();
+      }, 2000);
     }
   }
 
  
-  // setTimeout($(`.message`).remove(), 5000)
 
   function nameValidationHandler(event) {
     let name = event.target.value;
@@ -37,9 +39,11 @@ function Contact() {
     if (name) {
       console.log("validated");
     } else {
-      // $(`.message`).remove();
+     
       $(".messagePlacement").append(`<p class="message">Please enter name</p>`);
-      setTimeout(function(){$(`.message`).remove()},2000)
+      setTimeout(function () {
+        $(`.message`).remove();
+      }, 2000);
     }
   }
 
@@ -49,9 +53,12 @@ function Contact() {
     if (message) {
       console.log("validated");
     } else {
-     
-      $(".messagePlacement").append(`<p class="message">Please enter message</p>`);
-      setTimeout(function(){$(`.message`).remove()},2000)
+      $(".messagePlacement").append(
+        `<p class="message">Please enter message</p>`
+      );
+      setTimeout(function () {
+        $(`.message`).remove();
+      }, 2000);
     }
   }
 
@@ -87,6 +94,7 @@ function Contact() {
           id="formGroupExampleInput2"
           placeholder="Message"
         ></textarea>
+        <button type="button" className="btn btn-primary btn-lg">Submit</button>
       </div>
       <div className="messagePlacement"></div>
     </main>
