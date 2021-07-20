@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.172b9842.chunk.css",
+    "main.js": "/my-app/static/js/main.3003b920.chunk.js",
+    "main.js.map": "/my-app/static/js/main.3003b920.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.c7ea0657.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.c7ea0657.js.map",
+    "static/css/2.081f420c.chunk.css": "/my-app/static/css/2.081f420c.chunk.css",
+    "static/js/2.cc41d3ed.chunk.js": "/my-app/static/js/2.cc41d3ed.chunk.js",
+    "static/js/2.cc41d3ed.chunk.js.map": "/my-app/static/js/2.cc41d3ed.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/my-app/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.172b9842.chunk.css.map": "/my-app/static/css/main.172b9842.chunk.css.map",
+    "static/js/2.cc41d3ed.chunk.js.LICENSE.txt": "/my-app/static/js/2.cc41d3ed.chunk.js.LICENSE.txt",
+    "static/media/Carl'sPhoto.e2dae1c9.png": "/my-app/static/media/Carl'sPhoto.e2dae1c9.png",
+    "static/media/Project.css": "/my-app/static/media/tengyart-NDejLr1wr-4-unsplash.a9ef9419.jpg",
+    "static/media/Header.css": "/my-app/static/media/maxunsplash.548e4c03.jpg",
+    "static/media/resume.05ffc0a5.pdf": "/my-app/static/media/resume.05ffc0a5.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7ea0657.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.cc41d3ed.chunk.js",
+    "static/css/main.172b9842.chunk.css",
+    "static/js/main.3003b920.chunk.js"
+  ]
+}
