@@ -22,7 +22,7 @@ function Resume() {
 
           </span>
         </p>
-        <h3>Front-End Profencies</h3>
+        <h3>Front-End  Proficiencies</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -33,7 +33,7 @@ function Resume() {
           <li>Bootstrap</li>
         </ul>
 
-        <h3>Back-End Profencies</h3>
+        <h3>Back-End  Proficiencies</h3>
         <ul>
           <li>APIs</li>
           <li>Node</li>
