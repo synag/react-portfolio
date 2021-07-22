@@ -1,5 +1,8 @@
 
 import "../styles/Resume.css";
+import PDF from "../images/resume.pdf"
+
+
 
 
 function Resume() {
@@ -13,9 +16,10 @@ function Resume() {
         <p>
           Download Resume
           <span>
-            <a href="../images/carlkbenbowresume032321.pdf" download>
+            <a href ={PDF} target ="_blank" >
               here
             </a>
+
           </span>
         </p>
         <h3>Front-End Profencies</h3>
